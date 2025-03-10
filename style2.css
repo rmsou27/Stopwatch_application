@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+
+/* Navigation Bar */
+
+#main-nav {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.3s ease;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Center the menu items */
+}
+
+#main-nav li {
+    margin: 0 15px;
+}
+
+#main-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+#main-nav a:hover {
+    background-color: #555;
+    color: #eee;
+}
+
+
+/* Navigation Bar Styles when scrolled */
+
+#main-nav.scrolled {
+    background-color: #222;
+    /* Change background color when scrolled */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+}
+
+
+/* Example section styles  */
+
+section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+header {
+    background-color: #eee;
+}
